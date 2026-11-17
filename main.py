@@ -47,8 +47,8 @@ re-fetched from SullyGnome):
 * kernel weighting by similarity in ln(viewers_1) and k-nearest
   neighbours -- worse on leave-one-out.
 
-Validation (see REPORT.md): practice pinball loss 0.171 against the
-house baseline's 0.387; leave-one-out inside the donor pool 0.277.
+Validation (see REPORT.md): practice pinball loss 0.168 against the
+house baseline's 0.387; leave-one-out inside the donor pool 0.283.
 
 Standard library only, no network, deterministic: the only inputs are
 the case file's numbers, the fits are closed-form least squares, and
